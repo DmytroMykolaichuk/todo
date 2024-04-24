@@ -1,0 +1,17 @@
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: #218733;
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color:#218733 ;
+}

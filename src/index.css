@@ -1,0 +1,42 @@
+@import-normalize;
+
+body {
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  background-color: #92c84a;
+  color: #218733;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1600px;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
