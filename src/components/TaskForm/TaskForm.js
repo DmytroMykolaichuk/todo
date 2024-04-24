@@ -9,8 +9,10 @@ export const TaskForm = () => {
   const handleSubmit = event => {
     event.preventDefault();
     const form = event.target;
-    dispatch(addTask(form.elements.text.value));
-    form.reset();
+    if(form.elements.text.value.trim()){
+      dispatch(addTask(form.elements.text.value));
+      form.reset();
+    }
   };
 
   return (

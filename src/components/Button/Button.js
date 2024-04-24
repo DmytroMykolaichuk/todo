@@ -3,7 +3,6 @@ import css from "./Button.module.css";
 
 export const Button = ({
   selected = false,
-  type = "button",
   children,
   ...otherProps
 }) => {
@@ -12,7 +11,7 @@ export const Button = ({
       className={clsx(css.btn, {
         [css.isSelected]: selected
       })}
-      type={type}
+      type = "button"
       {...otherProps}
     >
       {children}
