@@ -4,7 +4,7 @@
     list-style: none;
   }
   
-  .listItem + .listItem {
-    border-top: 1px solid #2f2f37;
+  .listItem {
+    border-bottom: 1px solid #2f2f37;
   }
   
